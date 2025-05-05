@@ -1,8 +1,7 @@
 import os
 import PyPDF2
-from flask import Flask, jsonify, request, make_response, session
+from flask import Flask, jsonify, request, session
 from flask_cors import CORS
-from weasyprint import HTML
 from dotenv import load_dotenv
 import nltk
 import re
